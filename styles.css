@@ -1,0 +1,113 @@
+body {
+    background: #1c1e21; /* Dark background color for the body */
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.resume {
+    background: #2c2f33; /* Darker background for the resume container */
+    color: #ffffff; /* White text color */
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 15px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.profile-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.header-text {
+    text-align: left;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #eaeaea; /* Light gray for the name */
+}
+
+header p {
+    font-size: 1.2em;
+    color: #cccccc; /* Light gray for the subtitle */
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+section h2 {
+    font-size: 1.8em;
+    color: #61dafb; /* Light blue for section titles */
+    border-bottom: 3px solid #61dafb; /* Light blue border for section titles */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+section p, section ul, section div {
+    font-size: 1em;
+    color: #eaeaea; /* Light gray for text */
+    line-height: 1.6;
+}
+
+section a {
+    color: #61dafb; /* Light blue for links */
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+.education-item, .experience-item, .project-item {
+    margin-bottom: 20px;
+    background: #3b3e42; /* Dark gray background for items */
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.education-item h3, .experience-item h3, .project-item h3 {
+    font-size: 1.2em;
+    color: #61dafb; /* Light blue for item titles */
+    margin: 0;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    background: #485056; /* Medium dark background for skills */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #eaeaea; /* Light gray for skill text */
+}
+
+.skills-list li strong {
+    color: #61dafb; /* Light blue for skill highlights */
+}
+
+.resume a {
+    color: #61dafb; /* Light blue for links */
+}
+
+.resume a:hover {
+    text-decoration: underline;
+}
